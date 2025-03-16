@@ -254,11 +254,11 @@
         button_layer {
             display-name = "Buttons";
             bindings = <
-&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
-&trans  &kp LGUI    &kp LALT   &kp LCTRL   &kp LSHFT    &trans          &trans     &kp RSHFT  &kp RCTRL        &kp RALT   &kp RGUI  &kp GRAVE
-&trans  &trans      &trans     &trans      &trans       &trans          &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC   &kp PIPE  &kp TILDE
-                               &trans                                                         &trans
-        &trans      &mkp MCLK  &mkp LCLK   &mkp RCLK                               &mkp RCLK  &mkp LCLK        &mkp MCLK  &trans
+&trans  &kp C_AC_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO      &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp RPAR    &trans
+&trans  &kp LGUI       &kp LALT   &kp LCTRL   &kp LSHFT    &trans          &trans      &kp RSHFT    &kp RCTRL   &kp RALT   &kp RGUI    &trans
+&trans  &kp C_AC_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO      &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO  &trans
+                                  &trans                                                            &trans
+        &trans         &mkp MCLK  &mkp LCLK   &mkp RCLK                                &mkp RCLK    &mkp LCLK   &mkp MCLK  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp C_NEXT C_PREV>;
